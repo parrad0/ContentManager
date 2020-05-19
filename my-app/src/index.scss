@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'RepsolBold';
+  src: url('/src/Fonts/Repsol-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/src/Fonts/Repsol-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/src/Fonts/Repsol-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/src/Fonts/Repsol-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/src/Fonts/Repsol-Bold.svg#repsolBold') format('svg'); /* Legacy iOS */
+}
+body{
+ margin: 0px;
+ overflow-y:hidden;
+}
+.halfWidth{
+  width: 50vw;
+  overflow: hidden;
+  display: block;
+}
+.skeleton{
+  width: 100% !important;
+}
+.halfWidthLong{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.halfWidthShort{
+  width: 15vw;
+  overflow: hidden;
+  display: block;
+}
+.maxHeight{
+  max-height: 760px !important;
+  overflow-x: hidden;
+}
+.commerces{
+  display: flex;
+  width: 200vw;
+  overflow-x:scroll;
+  overflow-y: hidden;
+}
+.orangeBackground{
+  background-color: #FFB200 !important;
+  font-family:'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+.padding-search-commerce{
+  margin: 15px;
+}
+.title-header-text{
+  font-size: 2rem;
+  color:#032580 ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  font-family:'Titillium Web', sans-serif;
+  font-weight: bold;
+  font-size:23px;
+}
+.granate-color{
+  margin-left: 15px;
+  color: rgb(34, 23, 19);
+  border-color: #e40028 !important;
+  
+}
+.spanState{
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}
+.darkGreen{
+color: green;
+
+}
+.grey{
+
+color: grey;
+}
+.dark{
+  color: black;
+ 
+}
+.blue{
+ 
+  color: blue;
+}
+.green{color: greenyellow;
+}
+.red{color: red;
+
+}
+.orange{color: orange;
+
+}
+.flexContainer{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.row{
+  height: 50px !important;
+}
+.tableRow{
+  width:100%;
+}
+.fullWidth{
+  width: calc(100% - 10px);
+  height: 100%;
+  margin: auto;
+}
+.ReactVirtualized__Table__headerRow{
+  color: white !important;
+  font-family:'Titillium Web', sans-serif;
+  font-weight: 600;
+  background-color: #003b5c;
+  font-size: 14px;
+}
+.ReactVirtualized__Table__headerColumn{
+display: flex;
+align-items: center;
+}
+
+.rowClassName{
+  font-size: 14px;
+  font-weight: 300;
+  color: #6e6259;
+  font-family: 'Titillium Web', sans-serif;
+}
+.ReactVirtualized__Table__row :hover{
+  // background-color: red !important;
+}
+
+.rowClassNameImpar{
+  font-size: 14px;
+  font-weight: 300;
+  color: #6e6259;
+ font-family: 'Titillium Web', sans-serif;
+  background-color: rgba(0,0,0,0.05);
+
+}
+
+.searchComponent{
+  display: block;
+}
+.searchComponentWrap{
+  height: 25vh;
+  display: block;
+}
+.virtualizedComponentWrap{
+height: 75vh;
+}
+.navBar{
+  width: 100%;
+  margin-left: auto;
+  height: 100%;
+}
+.contentNavbar{
+width: 100%;
+height: 90%;
+}
+.headerNavbar{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  background-color: rgba(0,0,0,0.15);
+  border-radius: 3px;
+  align-items: center;
+}
+.tabNavbar{
+  font-family:'Titillium Web', sans-serif;  
+  width: 100px;
+  height: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.2);
+  text-align: center;
+  margin-right: 4px;
+  margin-left: 5px;
+  background-color: rgba(255,255,255,0.6);
+}
+.tabNavbar:hover{
+  cursor: pointer;
+}
+.active{
+  background-color: orange;
+  color: white ;
+  border: none ;
+}
+.hidden{
+  display:none;
+}
+.routingLink{
+  margin: 15px;
+}
+.routingLink span {
+  font-family:'Titillium Web', sans-serif;
+}
+.routingLink:hover{
+  cursor: pointer;
+}
+.linkActive{
+color: #003b5c;
+font-weight: bold;
+}
+.separator{
+  margin: 5px;
+}
+#comercioContent{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.textField{
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  font-family:'Titillium Web', sans-serif;
+  font-size: 15px;
+}
+.textContent{
+  background-color: rgba(0,0,0,0.2);
+  border: 1px solid rgba(0,0,0,0.3);
+  font-family:'Titillium Web', sans-serif;
+  min-height: 56px;
+  text-align: center;
+}
+
+@media (max-width: 1300px) {
+  .searchComponent{
+    display: flex;
+  }
+  .searchComponentWrap{
+    height: 30vh;
+    display: block;
+  }
+  .virtualizedComponentWrap{
+  height: 70vh;
+  }
+}
